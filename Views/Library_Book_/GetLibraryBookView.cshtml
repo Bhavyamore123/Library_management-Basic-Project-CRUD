@@ -1,0 +1,30 @@
+﻿@model List<_1_Library_Model.Models.Library_Book_Model>
+
+<p>
+    @Html.ActionLink("←Library Registration", "SaveorUpdate", "Library_Book_", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-bordered mt-3">
+    <tr class="table table-dark">
+        <th> Book id</th>
+        <th> Title</th>
+        <th> Author</th>
+        <th> ISBN</th>
+        
+        <th> Category</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+     {
+                <tr>
+                    <td>@item.BookId</td>
+                    <td>@item.Title</td>
+                    <td>@item.Author</td>
+                    <td>@item.ISBN</td>
+                    @*<td>@item.PublishDate</td>*@
+                    <td>@item.Category</td>
+                    <td><button type="submit" class="btn btn-danger">@Html.ActionLink("Edit", "LibraryBookViewEdit", new { id = item.BookId })</button></td>
+                    <td><button type="submit" class="btn btn-danger">@Html.ActionLink("Delete", "LibraryBookDelete", new { id = item.BookId })</button></td>
+                </tr>
+     }
+</table>

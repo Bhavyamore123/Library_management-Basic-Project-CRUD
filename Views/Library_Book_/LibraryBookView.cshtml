@@ -1,0 +1,64 @@
+﻿@model _1_Library_Model.Models.Library_Book_Model
+
+@using (Html.BeginForm("SaveorUpdate", "Library_Book_", FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg rounded-4 border-0">
+                    <div class="card-header bg-dark text-white text-center rounded-top-4">
+                        <h2 class="mb-0">📚 Library Registration</h2>
+                    </div>
+
+                    <div class="card-body p-4">
+                        @Html.HiddenFor(m => m.BookId)
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Title</label>
+                            @Html.TextBoxFor(m => m.Title, new { @class = "form-control", placeholder = "Enter book title" })
+                            @Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger small" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Author</label>
+                            @Html.TextBoxFor(m => m.Author, new { @class = "form-control", placeholder = "Enter author name" })
+                            @Html.ValidationMessageFor(m => m.Author, "", new { @class = "text-danger small" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">ISBN</label>
+                            @Html.TextBoxFor(m => m.ISBN, new { @class = "form-control", placeholder = "Enter ISBN number" })
+                            @Html.ValidationMessageFor(m => m.ISBN, "", new { @class = "text-danger small" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Publish Date</label>
+                            @Html.TextBoxFor(
+                                              m => m.PublishDate,
+                                             "{0:yyyy-MM-dd}", // format the DateTime correctly
+                                              new { @class = "form-control"}
+                                             )
+                            @*@Html.TextBoxFor(m => m.PublishDate, new { @class = "form-control", type = "date" })*@
+                            @Html.ValidationMessageFor(m => m.PublishDate, "", new { @class = "text-danger small" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Category</label>
+                            @Html.TextBoxFor(m => m.Category, new { @class = "form-control", placeholder = "Enter category" })
+                            @Html.ValidationMessageFor(m => m.Category, "", new { @class = "text-danger small" })
+                        </div>
+                    </div>
+
+                    <div class="card-footer text-center bg-light rounded-bottom-4">
+                        <button type="submit" class="btn btn-success px-5">
+                            <i class="bi bi-save"></i> Save
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

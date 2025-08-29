@@ -1,0 +1,9 @@
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\bin\Debug\2_Library_Interface.dll
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\bin\Debug\2_Library_Interface.pdb
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\bin\Debug\1_Library_Model.dll
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\bin\Debug\1_Library_Model.pdb
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\obj\Debug\2_Library_Interface.csproj.AssemblyReference.cache
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\obj\Debug\2_Library_Interface.csproj.CoreCompileInputs.cache
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\obj\Debug\2_Librar.BB81F822.Up2Date
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\obj\Debug\2_Library_Interface.dll
+C:\Users\bhave\source\repos\Library_Management\2_Library_Interface\obj\Debug\2_Library_Interface.pdb

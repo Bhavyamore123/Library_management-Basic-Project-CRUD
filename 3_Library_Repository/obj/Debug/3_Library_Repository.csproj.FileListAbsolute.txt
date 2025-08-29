@@ -1,0 +1,11 @@
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\bin\Debug\3_Library_Repository.dll
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\bin\Debug\3_Library_Repository.pdb
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\bin\Debug\1_Library_Model.dll
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\bin\Debug\2_Library_Interface.dll
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\bin\Debug\1_Library_Model.pdb
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\bin\Debug\2_Library_Interface.pdb
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\obj\Debug\3_Library_Repository.csproj.AssemblyReference.cache
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\obj\Debug\3_Library_Repository.csproj.CoreCompileInputs.cache
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\obj\Debug\3_Librar.B87B1A7C.Up2Date
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\obj\Debug\3_Library_Repository.dll
+C:\Users\bhave\source\repos\Library_Management\3_Library_Repository\obj\Debug\3_Library_Repository.pdb
